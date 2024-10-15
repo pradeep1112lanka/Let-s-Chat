@@ -1,6 +1,7 @@
 .chatList{
     flex :1;
     overflow: scroll;
+    max-width: 500px;
     .search{
         display: flex;
         align-items: center;
@@ -53,13 +54,17 @@
         }
 
         .texts{
+            width: 100%;
             display: flex;
             flex-direction: column;
             gap:10px;
+            background-color: rgba(17, 25, 40, 0);
+            
 
 
             span{
-                font-weight: 500;
+                font-weight: 800;
+                /* background-color: blueviolet */
             }
 
             p{
@@ -67,6 +72,23 @@
                 font-weight: 300;
             }
 
+        }
+    }
+    button{
+        flex: 1;
+        width: 100%;
+        /* top: 415px; */
+        position:relative;
+        align-items: center;
+        padding: 15px;
+        background-color: rgba(255, 0, 0, 0.382);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgba(255, 0, 0, 0.645);
         }
     }
 }

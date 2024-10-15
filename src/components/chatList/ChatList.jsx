@@ -5,7 +5,7 @@ import "./chatList.css";
 import AddUser from "../addUser/addUser";
 import { useUserStore } from "../../lib/userStore";
 import { doc, getDoc, onSnapshot, updateDoc } from "firebase/firestore";
-import { db } from "../../lib/firebase";
+import { auth, db } from "../../lib/firebase";
 import { useChatStore } from "../../lib/chatStore";
 
 const ChatList = () => {
@@ -119,6 +119,7 @@ const ChatList = () => {
       )}
 
       {addMode && <AddUser />}
+        <button className="logout" onClick={()=>auth.signOut()}>Logout</button>
     </div>
   );
 };
