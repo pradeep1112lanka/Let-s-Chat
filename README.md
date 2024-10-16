@@ -1,12 +1,11 @@
 # Messaging Service Prototype
 
-This repository contains a messaging service prototype with features such as user authentication, chat functionality (including group chat), real-time updates, and file uploads. The project is built using **React** for the front end, **Vite** for fast development, and **Firebase** for backend services like authentication, real-time database, and file storage.
+This repository contains a messaging service prototype with features such as user authentication, chat functionality , real-time updates, and file uploads. The project is built using **React** for the front end, **Vite** for fast development, and **Firebase** for backend services like authentication, real-time database, and file storage.
 
 ## Features
 
-- **User Authentication**: Secure login and registration using Firebase Authentication.
+- **User Authentication**: Secure login and registration (no email verification)using Firebase Authentication.
 - **Chat Functionality**: Real-time messaging between users.
-- **Group Chat**: Create and participate in group conversations.
 - **File Upload**: Send images and other files during chat sessions.
 - **Responsive UI**: A user-friendly and responsive design for seamless communication.
 
@@ -36,8 +35,8 @@ The project is organized as follows:
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
-    cd <project-folder>
+    git clone https://github.com/pradeep1112lanka/Let-s-Chat.git
+    cd Let-s-Chat
     ```
 
 2. **Install the dependencies**:
@@ -95,7 +94,7 @@ To deploy the app for production, follow these steps:
     npm run build
     ```
 
-2. Deploy the production build to a hosting service like Firebase Hosting or Vercel.
+2. Deploy the production build to a hosting service like Firebase Hosting or Vercel or Amazon AWS.
 
 ## Contributing
 
@@ -104,10 +103,6 @@ If you want to contribute to this project:
 1. Fork the repository.
 2. Create a new branch for your feature/fix.
 3. Make your changes and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
 
