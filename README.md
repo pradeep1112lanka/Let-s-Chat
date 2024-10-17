@@ -1,5 +1,5 @@
-Lanka Pradeep (EE22B074)
-Electrical engineering
+Lanka Pradeep (EE22B074),
+Electrical engineering ,
 IIT Madras
 
 # Messaging Service Prototype
