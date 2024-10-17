@@ -107,7 +107,7 @@ If you want to contribute to this project:
 ## Contact
 
 For any queries or issues, feel free to reach out:
-
+Lanka Pradeep (EE22b074) IIT Madras.
 - **Email**: [pradeeplanka1112@gmail.com](mailto:pradeeplanka1112@gmail.com)
 - **GitHub**: [github.com/pradeep1112lanka](https://github.com/pradeep1112lanka)
 - **LinkedIn**: [linkedin.com/in/pradeep-lanka-62a850264](https://www.linkedin.com/in/pradeep-lanka-62a850264)
