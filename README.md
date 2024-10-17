@@ -1,3 +1,7 @@
+Lanka Pradeep (EE22B074)
+Electrical engineering
+IIT Madras
+
 # Messaging Service Prototype
 
 This repository contains a messaging service prototype with features such as user authentication, chat functionality , real-time updates, and file uploads. The project is built using **React** for the front end, **Vite** for fast development, and **Firebase** for backend services like authentication, real-time database, and file storage.
