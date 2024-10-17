@@ -2,6 +2,7 @@
 
 This repository contains a messaging service prototype with features such as user authentication, chat functionality , real-time updates, and file uploads. The project is built using **React** for the front end, **Vite** for fast development, and **Firebase** for backend services like authentication, real-time database, and file storage.
 
+webisite has been deployed online and can be accessed by using this link https://main.d1tegnvoh89ebk.amplifyapp.com/
 ## Features
 
 - **User Authentication**: Secure login and registration (no email verification)using Firebase Authentication.
